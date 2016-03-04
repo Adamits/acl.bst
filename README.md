@@ -3,6 +3,7 @@
 
 This is a minor extension of the original `acl.bst`, which adds support for a `url` field in your BibTeX file.
 The `url` field is optional, and if it exists for a given entry, then the title of the article will be hyperlinked.
+If the URL contains a `%` character, insert a backslash before it.
 
 ## Example
 For example, in your BibTeX file:
