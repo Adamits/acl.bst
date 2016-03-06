@@ -23,10 +23,10 @@ In the references section of the PDF, the title will be hyperlinked to the actua
 Jonas Sjöbergh and Kenji Araki. 2008. [A Complete and Modestly Funny System for Generating and Performing Japanese Stand-Up Comedy](http://www.aclweb.org/anthology/C08-2028). In Coling 2008: Companion volume: Posters, pages 111–114, Manchester, England.
 
 ## Hyperref and Navigator
-You can use either the CTAN package [Hyperref] or [Navigator] to allow hyperlinks in your LaTeX document.
+You can use either [Hyperref] or [Navigator] to allow hyperlinks in your LaTeX document.
 
 ### [Hyperref]
-Hyperref's default colors for linked text are crazy neon colors, so if you want a more normal (and subdued) coloring scheme, add the following to your preamble:
+Hyperref's default colors for linked text are crazy neon colors, so if you want a less-distracting coloring scheme, add the following to your preamble:
 
     \usepackage[hyperref,table,x11names]{xcolor}
     \definecolor{linkblue}{rgb}{0,0,0.20}
